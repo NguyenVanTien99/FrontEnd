@@ -1,0 +1,76 @@
+.img {
+  width: 80%;
+  margin: 200px auto;
+  position: relative;
+  height: 500px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  filter: blur(3px);
+}
+
+.contain {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+.line1 {
+  opacity: 0.8;
+  margin: 10px;
+  font-weight: lighter;
+}
+
+.line2,
+.line3 {
+  margin: 0;
+}
+.line2 {
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.line3 {
+  font-weight: bold;
+}
+
+.contain-buton {
+  display: flex;
+  width: 20%;
+  margin: 35px auto 0;
+  justify-content: space-between;
+}
+
+.b {
+  padding: 10px 0;
+  border: 1px solid white;
+}
+
+.b:hover {
+  opacity: 0.8;
+}
+
+.b1 {
+  flex-basis: 45%;
+}
+
+.b2 {
+  flex-basis: 45%;
+}
+
+.b3 {
+  width: 10%;
+  margin: 25px auto;
+}

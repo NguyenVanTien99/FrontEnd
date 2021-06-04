@@ -1,0 +1,46 @@
+.container{
+    padding: 20px 0 ;
+    width: 60%;
+    margin: auto;
+    background-color: cornflowerblue;
+    border-radius: 5px  ;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+    background-color: white;
+
+}
+
+td,th {
+    text-align: left;
+    height: 50px;
+    padding: 10px;
+}
+
+th {
+    background-color: steelblue;
+    color: white;
+}
+
+tr {
+    border-bottom: 1px solid gainsboro ;
+    
+}
+
+table tr:last-child td:first-child {
+    
+}
+
+table tr:last-child td:last-child {
+   
+}
+
+table tr:nth-child(even):hover {
+    background-color: teal;
+  }
+table tr:nth-child(odd):hover {
+    background-color: sandybrown;
+  }

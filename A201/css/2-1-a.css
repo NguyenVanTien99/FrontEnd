@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  background-color: orange;
+  margin: auto;
+  width: 90%;
+  height: 500px;
+  justify-content: space-around;
+}
+
+.row1, .row2  {
+  flex-basis: 25%;
+  padding: 20px;
+  text-align: justify;
+  font-size: x-large;
+  color: white;
+}
+
+.row2 {
+  flex-basis: 25%;
+}
+
+.row3 {
+  padding: 20px;
+  flex-basis: 45%;
+  font-size: x-large;
+  color: white;
+}
+
+#input1, #input2 {
+    width: 42%;
+    height: 26px;  
+}
+
+#input3 {
+    width: 90%;
+    height: 26px;  
+}
+
+#input4 {
+    width: 90%;
+}
+
+#submit {
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+input, textarea {
+    margin: 15px;
+}
+

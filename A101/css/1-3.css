@@ -1,0 +1,123 @@
+.container {
+  width: 90%;
+  background-color: cadetblue;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.row {
+  height: 200px;
+  margin: 26px;
+  display: flex;
+}
+
+.row1 {
+  flex-basis: 45%;
+}
+
+.row2 {
+  flex-basis: 45%;
+}
+
+.row3 {
+  flex-basis: 45%;
+}
+
+.row4 {
+  flex-basis: 45%;
+}
+
+.day {
+  background-color: burlywood;
+  flex: 1;
+  text-align: center;
+  padding-top: 45px;
+}
+
+.day-day {
+  font-size: 36px;
+  margin: 0;
+}
+
+.monthyear {
+  font-size: 56px;
+  margin: 0;
+}
+
+.day label {
+  margin: 25px auto;
+  font-size: 50px;
+}
+
+.day1 {
+  background-color: orange;
+}
+
+.content1 {
+  color: orange;
+}
+
+.day2 {
+  background-color: red;
+}
+
+.content2 {
+  color: red;
+}
+
+.day3 {
+  background-color: green;
+}
+
+.content3 {
+  color: green;
+}
+
+.day4 {
+  background-color: steelblue;
+}
+
+.content4 {
+  color: steelblue;
+}
+
+.content label {
+  margin: 25px auto;
+  font-size: 50px;
+}
+
+.content {
+  background-color: white;
+  flex: 3;
+  padding-top: 55px;
+  padding-left: 25px;
+}
+
+.content h3 {
+  margin: 0;
+}
+
+.content h2 {
+  margin: 0;
+}
+
+.contain-buton {
+  background-color: cadetblue;
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+
+.button{
+    float: right;
+    font-size: x-large;
+    color: steelblue;
+    border-radius : 20px;
+    border: 2px solid steelblue;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 250px;
+}

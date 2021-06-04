@@ -1,0 +1,101 @@
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.wrapper .area{
+    width: 32%;
+    height: 100%;
+    /* background-color: tomato; */
+}
+.area .title{
+    width: 100%;
+}
+.title h2{
+    margin: 0;
+    /* khoang ho giua text va vung chua */
+    padding:0.5em 0;
+    display: inline;
+}
+
+.title a{
+    float: right;
+    padding:0.5em 0;
+    text-decoration: none;
+    margin-right: 15px ;
+
+}
+.area .row-content{
+    width: 100%;
+    height: 80px;
+    /* background-color: thistle; */
+    /* flexbox */
+    display: flex;
+    justify-content: space-between;
+    /* khoang cac row */
+    margin: 2em 0;
+}
+.row-content .area-image{
+    width: 25%;
+    height: 100%;
+    /* background-color: violet; */
+    /* border */
+    box-sizing: border-box;
+    border: 1px solid thistle;
+    padding: 0.3em;
+}
+.row-content .area-content{
+    width: 73%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.area-image img{
+    width: 100%;
+    height: 100%;
+}
+.area-content h3,
+.area-content p{
+    margin: 0;
+    font-size: 1em;
+}
+.area-content h3 a{
+    color: black;
+}
+.area-content a{
+    text-decoration: none;
+}
+.area-content p.date{
+    padding: 0.2em 0;
+    font-size: 0.8em;
+    color: rgb(216, 216, 213);
+}
+.area-content .content{
+    display: inline;
+}
+.area-content a.readmore{
+    text-transform: capitalize;
+}
+.area .line{
+    border-bottom: 2px dashed thistle;;
+}
+.area-right p.content{
+    display: block;
+}
+.btn-readmore{
+    text-decoration: none;
+    color: black;
+    padding: 0.7em 0.8em;
+    background-color: tomato;
+    border-radius: 5px;
+}
+.btn-readmore:hover{
+    background-color: turquoise;
+}
+
+.area-center .area-image{
+    margin-top: 32px;
+} 
