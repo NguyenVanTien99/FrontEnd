@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css//fontawesome/css/all.min.css" />
+    <style>
+        .pagination li a
+        {
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container border-end border-start border-bottom">
+
+        <!-- navbar -->
+
+        <div class="row mt-5 bg-secondary p-md-2">
+            <div class="col-md-6 text-white">
+                <h1>Manage Emplyee</h1>
+            </div>
+            <div class="col-md-6 text-end mt-2 ">
+                <button class="btn btn-danger me-2"><i class="fas fa-trash-alt"></i> Delete</button>
+                <button class="btn btn-success"><i class="fas fa-plus-square"></i> Add New Employee</button>
+            </div>
+        </div>
+
+        <!-- table -->
+
+        <div class="row">
+            <table class="table table-hover table-responsive">
+                <thead>
+                    <tr>
+                        <th>
+                            <div class="form-check">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Address</th>
+                        <th>Phone</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>
+                            <div class="form-check">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </th>
+                        <td>Van Tien Nguyen</td>
+                        <td>Tien@gmail.com</td>
+                        <td>DaNang, VietNam</td>
+                        <td>(84)123456789</td>
+                        <td>
+                            <button class="btn"><i class="fas fa-pen text-warning"></i></i></button>
+                            <button class="btn"><i class="fas fa-trash-alt text-danger"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="form-check">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </th>
+                        <td>Van Tien Nguyen</td>
+                        <td>Tien@gmail.com</td>
+                        <td>DaNang, VietNam</td>
+                        <td>(84)123456789</td>
+                        <td>
+                            <button class="btn"><i class="fas fa-pen text-warning"></i></i></button>
+                            <button class="btn"><i class="fas fa-trash-alt text-danger"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="form-check">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </th>
+                        <td>Van Tien Nguyen</td>
+                        <td>Tien@gmail.com</td>
+                        <td>DaNang, VietNam</td>
+                        <td>(84)123456789</td>
+                        <td>
+                            <button class="btn"><i class="fas fa-pen text-warning"></i></i></button>
+                            <button class="btn"><i class="fas fa-trash-alt text-danger"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="form-check">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </th>
+                        <td>Van Tien Nguyen</td>
+                        <td>Tien@gmail.com</td>
+                        <td>DaNang, VietNam</td>
+                        <td>(84)123456789</td>
+                        <td>
+                            <button class="btn"><i class="fas fa-pen text-warning"></i></i></button>
+                            <button class="btn"><i class="fas fa-trash-alt text-danger"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="form-check">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </th>
+                        <td>Van Tien Nguyen</td>
+                        <td>Tien@gmail.com</td>
+                        <td>DaNang, VietNam</td>
+                        <td>(84)123456789</td>
+                        <td>
+                            <button class="btn"><i class="fas fa-pen text-warning"></i></i></button>
+                            <button class="btn"><i class="fas fa-trash-alt text-danger"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="form-check">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </th>
+                        <td>Van Tien Nguyen</td>
+                        <td>Tien@gmail.com</td>
+                        <td>DaNang, VietNam</td>
+                        <td>(84)123456789</td>
+                        <td>
+                            <button class="btn"><i class="fas fa-pen text-warning"></i></i></button>
+                            <button class="btn"><i class="fas fa-trash-alt text-danger"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div class="form-check">
+                                <input type="checkbox" name="" id="">
+                            </div>
+                        </th>
+                        <td>Van Tien Nguyen</td>
+                        <td>Tien@gmail.com</td>
+                        <td>DaNang, VietNam</td>
+                        <td>(84)123456789</td>
+                        <td>
+                            <button class="btn"><i class="fas fa-pen text-warning"></i></i></button>
+                            <button class="btn"><i class="fas fa-trash-alt text-danger"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- pagination -->
+
+        <div class="row">
+            <div class="col-md-6">
+                Show <label class="text-muted fw-bold">5</label> out of <label class="text-muted fw-bold">25</label> entries
+            </div>
+
+            <div class="col-md-6 ">
+                <ul class="pagination justify-content-end ">
+                    <li class="page-item "><a class="page-link" href="#">Previous</a>
+                        <li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#">Next</a>
+                     </li>
+                </ul>
+            </div>
+
+        </div>
+
+        
+
+        
+    </div>
+    
+</body>
+</html>

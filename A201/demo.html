@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <link rel="stylesheet"  href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .container-fluild {
+            background-color: orange;
+        }
+        /* .container {
+            background-color: pink;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container-fluild">
+        container-fluild
+    </div>
+
+    <div class="container" style="background-color: pink;">
+        container <br>
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sx-4 col-4">
+                col 1
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sx-4 col-4">
+                col 2
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sx-4 col-4">
+                col 3
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-sx-4 col-4">
+                col 4
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-5" style="background-color: green;">
+                col 1
+            </div>
+            <div class="col-md-5" style="background-color: orange;">
+                col 2
+            </div>
+            <div class="col-md-2" style="background-color: green;">
+                col 3
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-3 col-sm-4" style="background-color: green;">Laptop 1</div>
+            <div class="col-lg-3 col-sm-4" style="background-color: orange;">Laptop 2</div>
+            <div class="col-lg-3 col-sm-4" style="background-color: green;">Laptop 3</div>
+            <div class="col-lg-3 col-sm-4" style="background-color: orange;">Laptop 4</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-6" style="background-color: green;">
+                        col-md-6
+                    </div>
+                    <div class="col-md-6" style="background-color: orange;">
+                        col-md-6
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        col-md-12
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                col-md-4
+            </div>
+        </div>
+
+        <div class="row text-left">
+            <div class="col-md-12">
+                <p class="text-uppercase">text left 1 <i class="fas fa-address-book"></i></p>
+            </div>
+        </div>
+
+        <div class="row text-right">
+            <div class="col-md-12">
+                <p>text right 2</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <blockquote class="blockquote">
+                <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Contextual Colors</h2>
+        <p>Use the contextual classes to provide "meaning through colors":</p>
+        <p class="text-muted">This text is muted.</p>
+        <p class="text-primary">This text is important.</p>
+        <p class="text-success">This text indicates success.</p>
+        <p class="text-info">This text represents some information.</p>
+        <p class="text-warning">This text represents a warning.</p>
+        <p class="text-danger">This text represents danger.</p>
+        <p class="text-secondary">Secondary text.</p>
+        <p class="text-dark">This text is dark grey.</p>
+        <p class="text-body">Default body color (often black).</p>
+        <p class="text-light">This text is light grey (on white background).</p>
+        <p class="text-white">This text is white (on white background).</p>
+    </div>
+
+    <div class="container">
+        <h2>Contextual Backgrounds</h2>
+        <p>Use the contextual background classes to provide "meaning through colors".</p>
+        <p>Note that you can also add a .text-* class if you want a different text color:</p>
+        <p class="bg-primary text-white">This text is important.</p>
+        <p class="bg-success text-white">This text indicates success.</p>
+        <p class="bg-info text-white">This text represents some information.</p>
+        <p class="bg-warning text-white">This text represents a warning.</p>
+        <p class="bg-danger text-white">This text represents danger.</p>
+        <p class="bg-secondary text-white">Secondary background color.</p>
+        <p class="bg-dark text-white">Dark grey background color.</p>
+        <p class="bg-light text-dark">Light grey background color.</p>
+    </div>
+
+    <div class="container">
+        <div class="alert alert-success">
+            <strong>Success!</strong> Indicates a successful or positive action.
+        </div>
+        <div class="alert alert-info">
+            <strong>info!</strong> Indicates a successful or positive action.
+        </div>
+
+        <div class="alert alert-warning">
+            <strong>warning!</strong> Indicates a successful or positive action.
+        </div>
+
+        <div class="alert alert-danger">
+            <strong>danger!</strong> Indicates a successful or positive action.
+        </div>
+        <div class="alert alert-primary">
+            <strong>primary!</strong> Indicates a successful or positive action.
+        </div>
+        <div class="alert alert-secondary">
+            <strong>secondary!</strong> Indicates a successful or positive action.
+        </div>
+
+        <div class="alert alert-light">
+            <strong>light!</strong> Indicates a successful or positive action.
+        </div>
+
+        <div class="alert alert-dark">
+            <strong>dark!</strong> Indicates a successful or positive action.
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Basic List Group</h2>
+        <ul class="list-group">
+            <li class="list-group-item">First item</li>
+            <li class="list-group-item">Second item</li>
+            <li class="list-group-item">Third item</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>List Inline</h2>
+        <ul class="list-inline">
+            <li class="list-inline-item">First item</li>
+            <li class="list-inline-item">Second item</li>
+            <li class="list-inline-item">Third item</li>
+        </ul>
+    </div>
+
+
+    <div class="container">
+        <h2>Badges</h2>
+        <h1>Example heading <span class="badge badge-secondary">New</span></h1>
+        <h2>Example heading <span class="badge badge-secondary">New</span></h2>
+        <h3>Example heading <span class="badge badge-secondary">New</span></h3>
+        <h4>Example heading <span class="badge badge-secondary">New</span></h4>
+        <h5>Example heading <span class="badge badge-secondary">New</span></h5>
+        <h6>Example heading <span class="badge badge-secondary">New</span></h6>
+    </div>
+
+    <div class="container">
+        <h2>Button Styles</h2>
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+
+    <div class="container">
+        <h1>My Icons <i class="fas fa-heart"></i></h1>
+        <p>An icon along with some text: <i class="fas fa-thumbs-up"></i></p>
+    </div>
+
+    <div class="container">
+        <p>Others:</p>
+        <i class="fas fa-cloud"></i>
+        <i class="fas fa-coffee"></i>
+        <i class="fas fa-car"></i>
+        <i class="fas fa-file"></i>
+        <i class="fas fa-bars"></i>
+    </div>
+</body>
+
+</html>
