@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My todo list</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Awesome -->
+    <link rel="stylesheet" href="bootstrap/css/all.css">
+    <link rel="stylesheet" href="bootstrap/js/all.js">
+    <!-- bootstrap -->
+    <script src="bootstrap/jQuery/jquery.min.js"></script>
+    <script src="bootstrap/popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mt-5">
+                <h1>To Do List</h1>
+            </div>
+
+        </div>
+
+        
+        <form class="row p-0" action="javascript:void(0);">
+            <div class="col-10 p-0">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="todo-input" placeholder="Todo...">
+                </div>
+            </div>
+
+            <div class="col-2 p-0 ">
+                <button id="add-btn" type="submit" class="btn btn-primary w-100">Add items</button>
+            </div>
+        </form>
+
+        <div class="row" id="alert" style="display: none;">
+            <div class="col-12 p-0">
+                <div class="alert alert-danger" role="alert">
+                    Value is blank
+                </div>
+            </div>
+        </div>
+
+        <div class="row p-0 mt-5 " style="font-size: 30px;">
+            <div class="col-12 p-0">
+                <table class="table p-0">
+                    <tbody id="todos">
+                    
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+
+        <div class="row p-0 mt-5 " style="font-size: 30px;">
+            <div class="col-12 p-0 text-sm-center">
+                <button id="remove-all-btn" class="btn btn-primary" style="display: none;" >Remove All</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="js/6-2.js"></script>
+</body>
+</html>

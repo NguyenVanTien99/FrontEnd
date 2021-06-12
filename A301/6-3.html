@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Awesome -->
+    <link rel="stylesheet" href="bootstrap/css/all.css">
+    <link rel="stylesheet" href="bootstrap/js/all.js">
+    <!-- bootstrap -->
+    <script src="bootstrap/jQuery/jquery.min.js"></script>
+    <script src="bootstrap/popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <style>
+        img {
+            height: 300px;
+        }
+
+        .active{
+            background-color: gray;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12 text-center ">
+                <button class="btn m-3 active" data-filter="all" >ALL</button>
+                <button class="btn m-3 " data-filter="cat">CAT</button>
+                <button class="btn m-3" data-filter="dog">DOG</button>
+                <button class="btn m-3" data-filter="mouse">MOUSE</button>
+                <button class="btn m-3" data-filter="fish">FISH</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <form class="col-6 m-auto" action="javascript:void(0);">
+                <div class="p-0">
+                    <div class="input-group">
+                        <div class="input-group-text"><i class="fas fa-search"></i></div>
+                        <input id="search" type="text" class="form-control" id="todo-input" placeholder="item...">
+                    </div>
+                </div>
+            </form>
+        </div>       
+
+        <div class="row mt-5">
+
+            <div class="col-md-4 store-product cat">
+                <div class="card mb-3 " >
+                    <img src="img/cat1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Big Cat 1</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product cat">
+                <div class="card mb-3 " >
+                    <img src="img/cat2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Big Cat 2</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product cat">
+                <div class="card mb-3 " >
+                    <img src="img/cat3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Big Cat 3</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product dog">
+                <div class="card mb-3 " >
+                    <img src="img/dog1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Big Dog 1</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product dog">
+                <div class="card mb-3 " >
+                    <img src="img/dog2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Big Dog 2</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product dog">
+                <div class="card mb-3 " >
+                    <img src="img/dog3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">big Dog 3</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product mouse">
+                <div class="card mb-3 " >
+                    <img src="img/mouse1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Big mouse 1</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product mouse" >
+                <div class="card mb-3 " >
+                    <img src="img/mouse2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Small mouse 2</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product mouse">
+                <div class="card mb-3 " >
+                    <img src="img/mouse3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Small mouse 3</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 store-product fish">
+                <div class="card mb-3 " >
+                    <img src="img/fish1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Fish 1</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4 store-product fish">
+                <div class="card mb-3 " >
+                    <img src="img/fish2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Fish 2</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-4 store-product fish">
+                <div class="card mb-3 " >
+                    <img src="img/fish3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Fish 3</h5>
+                            </div>
+                            <div class="col-6">
+                                <h5 class="text-right">10$</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            </div>
+
+
+        </div>
+    </div>
+    <script src="js/6-3.js"></script>
+</body>
+</html>
