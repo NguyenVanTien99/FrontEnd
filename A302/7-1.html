@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- Awesome -->
+    <link rel="stylesheet" href="bootstrap/css/all.css">
+    <link rel="stylesheet" href="bootstrap/js/all.js">
+    <!-- bootstrap -->
+
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <table class="table" id="product-table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Image</th>
+                        <th scope="col">Product Name</th>
+                        <th scope="col">Product Code</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Amount</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><img src="image/cat1.jpg" alt="" style="width: 100px;"></td>
+                        <td>product1</td>
+                        <td>A0001</td>
+                        <td><input type="text" name="quantity" id="price" min="0" class="form-control price text-center" value="100" style="width: 100px"></td>
+                        <td><div class="button-container d-flex">
+                            <button class="btn minus" value="+">-</button>
+                            <input type="text" name="quantity" id="" min="0" class="form-control quantity text-center" value="0" style="width: 50px">
+                            <button class="btn plus" value="-">+</button>
+                        </td>
+                        <td class="text-right amount">0</td>
+                      </tr>
+
+                      <tr>
+                        <td><img src="image/cat1.jpg" alt="" style="width: 100px;"></td>
+                        <td>product2</td>
+                        <td>A0002</td>
+                        <td><input type="text" name="quantity" id="price" min="0" class="form-control price text-center" value="100" style="width: 100px"></td>
+                        <td><div class="button-container d-flex">
+                            <button class="btn " value="+">-</button>
+                            <input type="text" name="quantity" id="" min="0" class="form-control quantity text-center" value="0" style="width: 50px">
+                            <button class="btn " value="-">+</button>
+                        </td>
+                        <td class="text-right amount">0</td>
+                      </tr>
+
+                      <tr>
+                        <td><img src="image/cat1.jpg" alt="" style="width: 100px;"></td>
+                        <td>product3</td>
+                        <td>A0003</td>
+                        <td><input type="text" name="quantity" id="price" min="0" class="form-control price text-center" value="100" style="width: 100px"></td>
+                        <td><div class="button-container d-flex">
+                            <button class="btn " value="+">-</button>
+                            <input type="text" name="quantity" id="" min="0" class="form-control quantity text-center" value="0" style="width: 50px">
+                            <button class="btn " value="-">+</button>
+                        </td>
+                        <td class="text-right amount">0</td>
+                      </tr>
+
+                      <tr>
+                        <td><img src="image/cat1.jpg" alt="" style="width: 100px;"></td>
+                        <td>product4</td>
+                        <td>A0004</td>
+                        <td><input type="text" name="quantity" id="price" min="0" class="form-control price text-center" value="100" style="width: 100px"></td>
+                        <td><div class="button-container d-flex">
+                            <button class="btn " value="+">-</button>
+                            <input type="text" name="quantity" id="" min="0" class="form-control quantity text-center" value="0" style="width: 50px">
+                            <button class="btn " value="-">+</button>
+                        </td>
+                        <td class="text-right amount">0</td>
+                      </tr>
+                     
+                    </tbody>
+                        
+                    <tfoot>
+                        <td class="text-right" id="total" colspan="6">TOTAL = <span class="total">0</span></td>
+                    </tfoot>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/jQuery/jquery.min.js"></script>
+    <script src="bootstrap/popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/7-1.js"></script>
+</body>
+</html>
