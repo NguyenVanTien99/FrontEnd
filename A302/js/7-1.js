@@ -21,13 +21,27 @@ function update_amount(){
     $('.total').text(sum);
 }
 
-let incrementQty;
-let decrementQty;
 
 $(".plus").click(function() {
     let $n = $(this).parent(".button-container").find(".quantity");
 
     $n.val(Number($n.val()) + 1);
+
+    update_amount();
+})
+
+
+$(".minus").click(function() {
+    let $n = $(this).parent(".button-container").find(".quantity");
+
+    $n.val(Number($n.val()) - 1);
+
+    console.log($n);
+
+    if($n.val() < 0){
+        alert("Quantity cannot be negative");
+        $n.val(0);
+    }
 
     update_amount();
 })
