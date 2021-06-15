@@ -9,9 +9,14 @@
     <!-- Awesome -->
     <link rel="stylesheet" href="bootstrap/css/all.css" />
     <link rel="stylesheet" href="bootstrap/js/all.js" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+    </style>
   </head>
   <body>
     <div class="container">
+     <form action="" id="form-checkout">
       <div class="row mt-5">
         <div class="col-md-6">
           <h3>Personal Infor</h3>
@@ -26,10 +31,7 @@
                   placeholder="First Name"
                   name="first-name"
                 />
-                <div class="alert alert-danger" role="alert">
-                    This field is require
-                  </div>
-                <div class="alert alert-danger" role="alert">
+                <div class="alert alert-danger d-none" role="alert">
                     This is a danger alert—check it out!
                 </div>
               </div>
@@ -234,8 +236,14 @@
           </div>
         </div>
       </div>
+     </form>
     </div>
+
+
+
+
     <script src="bootstrap/jQuery/jquery.min.js"></script>
+    <script src="bootstrap/jQuery/jquery.validate.min.js"></script>
     <script src="bootstrap/popper/popper.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/7-2.js"></script>

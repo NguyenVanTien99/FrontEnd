@@ -1,48 +1,30 @@
-const btns = document.querySelectorAll('.btn');
-const storeProducts = document.querySelectorAll('.store-product');
+$(".btn").on("click", function () {
+    let value = $(this).data("filter");
+    if (value === "all") {
+      $(".store-product").css("display", "block");
+    } else {
+      $(".store-product")
+        .not("." + value)
+        .css("display", "none");
+      $(".store-product")
+        .filter("." + value)
+        .css("display", "block");
+    }
+  });
+  
 
-for (let i = 0; i < btns.length; i++) {
+  
+  $('#search').on('keyup', function(){
+      let input = $(this).val().toLowerCase();
 
-    btns[i].addEventListener('click', (e) => {
-
-        for (let j = 0; j < btns.length; j++){
-            btns[j].classList.remove('active');
-        }
-
-        e.target.classList.add('active');
-        
-        const filter = e.target.dataset.filter;
-        
-        storeProducts.forEach((product)=> {
-            if (filter === 'all'){
-                product.style.display = 'block'
-            } else {
-                if (product.classList.contains(filter)){
-                    product.style.display = 'block'
-                } else {
-                    product.style.display = 'none'
-                }
+      $('.card-title').each(function(){
+            let title = $(this).text();
+            if(title.toLowerCase().indexOf(input) != -1){
+                $(this).parent().parent().parent().parent().parent().css('display','block')
+            }else{
+                $(this).parent().parent().parent().parent().parent().css('display','none')
             }
-        });
-    });
-};
 
-
-const search = document.getElementById("search");
-const productName = document.querySelectorAll(".card-title")
-
-search.addEventListener("keyup", searchProducts);
-
-
-function searchProducts(e) {
-    let input = e.target.value.toLowerCase();
-    
-    productName.forEach((product) => {
-        let titile = product.textContent;
-        if(titile.toLowerCase().indexOf(input) != -1){
-            product.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "block"
-        }else {
-            product.parentElement.parentElement.parentElement.parentElement.parentElement.style.display = "none"
-        }
-    })
-}
+      })
+  
+  })
