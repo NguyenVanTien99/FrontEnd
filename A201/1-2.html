@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css//fontawesome/css/all.min.css" />
+    <style>
+
+        .content {
+            height: 300px;
+        }
+
+        .header, .signup, .feature {
+            height: 100px;
+        }
+
+
+        @media screen and (min-width: 376px) and (max-width: 991px) {
+            .signup, .feature {
+            height: 150px;
+        }
+        }
+
+        @media screen and (min-width: 992px) {
+            .feature {
+            height: 350px;
+            }
+            .header{
+                height: 300px;
+            }
+        
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container d-lg-flex flex-lg-column">
+        <div class="header d-flex justify-content-center align-items-center bg-warning flex-column text-center">
+             <h1>HEADER</h1>
+        </div>
+
+        <div class="content d-flex order-lg-3 justify-content-center align-items-center bg-info flex-column text-center ">
+             <h1>CONTENT</h1>
+        </div>
+
+        <div class="signup-feature d-md-flex flex-md-row flex-md-wrap d-lg-flex">
+            <div class="signup d-flex justify-content-center align-items-center bg-primary flex-column text-center col-md-6 col-lg-12 order-lg-4">
+                <h1>SIGNUP</h1> 
+             </div>
+             
+             <div class="feature d-flex justify-content-center align-items-center bg-success flex-column text-center col-md-6 col-lg-4 ">
+                <h1>FEATURE</h1> 
+             </div>
+     
+             <div class="feature d-flex justify-content-center align-items-center bg-success flex-column text-center col-md-6 col-lg-4 ">
+                 <h1>FEATURE</h1>
+             </div>
+     
+             <div class="feature d-flex justify-content-center align-items-center bg-success flex-column text-center col-md-6 col-lg-4 ">
+                <h1>FEATURE</h1> 
+             </div>
+        </div>
+
+
+    </div>
+</body>
+</html>

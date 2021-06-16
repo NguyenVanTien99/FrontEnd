@@ -13,6 +13,8 @@ let filterByGenderAndAge = users.filter((ele) => {
 
 console.log(filterByGenderAndAge);
 
+console.log("--------------");
+
 //array.reduce() 
 let AverageAge = users.reduce((sum, ele) => {
     let newSum = sum + ele.age
@@ -20,6 +22,8 @@ let AverageAge = users.reduce((sum, ele) => {
 },0)/users.length
 
 console.log(AverageAge);
+
+console.log("--------------");
 
 //array.map()
 
@@ -29,6 +33,8 @@ let listOfName = users.map((ele)=>{
 
 console.log(listOfName);
 
+console.log("--------------");
+
 //array.find()
 
 let findByAge = users.find((ele) => {
@@ -36,3 +42,5 @@ let findByAge = users.find((ele) => {
 })
 
 console.log(findByAge);
+
+console.log("--------------");

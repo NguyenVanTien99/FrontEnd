@@ -11,6 +11,9 @@ let sumOfEven = (arr) => {
   return sum;
 };
 
+console.log(sumOfEven(myArr));
+console.log("---------------------------");
+
 let sumOfOdd = (arr) => {
   let sum = 0;
 
@@ -22,12 +25,13 @@ let sumOfOdd = (arr) => {
   return sum;
 };
 
+console.log(sumOfOdd(myArr));
+console.log("---------------------------");
+
 let sumBetweenAAndBOfArr = (arr, a, b) => {
   arr.sort((a, b) => {
     return a - b;
   });
-
-  console.log(arr);
 
   let sum = 0;
 
@@ -38,9 +42,11 @@ let sumBetweenAAndBOfArr = (arr, a, b) => {
       sum += arr[index];
     }
   }
-
-  console.log(sum);
+  return sum;
 };
+
+console.log(sumBetweenAAndBOfArr(myArr,1,4));
+console.log("---------------------------");
 
 //  Danh sách được chia thành hai phần (Trái - Phải) (Vẫn là cùng một mảng)
 //  Phần được sắp xếp ở đầu bên trái và phần chưa được sắp xếp ở đầu bên phải
@@ -64,10 +70,11 @@ let selectionSort = (arr) => {
     arr[indexOfMinvalue] = arr[i];
     arr[i] = temp;
   }
-
   console.log(arr);
 };
 
+selectionSort([1,4,3,2,10,8,9]);
+console.log("---------------------------");
 
 
 // so sánh hai phần tử kề nhau, nếu chúng chưa đứng đúng thứ tự thì đổi chỗ (swap).
@@ -91,10 +98,11 @@ let bubbleSort = (arr) => {
       break;
     }
   }
-
   console.log(arr);
 };
 
+bubbleSort([1,4,3,2,10,8,9]);
+console.log("---------------------------");
 
 // 1: Lặp lại từ arr[1] đến arr[n] trên mảng.
 
@@ -112,8 +120,10 @@ let insertionSort = (arr) => {
         }
         arr[j + 1] = key
     }
+
     console.log(arr);
 }
 
-insertionSort([1,4,3,2,10,8,9])
+insertionSort([1,4,3,2,10,8,9]);
+console.log("---------------------------");
 
