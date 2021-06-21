@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!-- Awesome -->
+    <link rel="stylesheet" href="bootstrap/css/all.css" />
+    <link rel="stylesheet" href="bootstrap/js/all.js" />
+  </head>
+  <body>
+      <div class="container">
+        <form action="">
+            <div class="row">
+
+                <div class="col-4">
+                    <label for="" class="font-weight-bold">Chọn giải đấu V.league</label>
+                    <select class="form-control" id="league">
+                        <option value="defaut">-- Chọn giải đấu --</option>
+                        <option value="v1" data-league="v1">V.league 1</option>
+                        <option value="v2" data-league="v2">V.league 2</option>
+                    </select>    
+                </div>
+ 
+                <div class="col-4">
+                    <label for="" class="font-weight-bold">Chọn câu lạc bộ (FC)</label>
+                    <select class="form-control" id="clb">
+                        <option value="defaut">-- Chọn FC --</option>
+                        <option value="Viettel FC" data-league="v1">Viettel FC</option>
+                        <option value="Hà nội FC" data-league="v1">Hà nội FC</option>
+                        <option value="TP Hồ Chí Minh" data-league="v1">TP Hồ Chí Minh</option>
+                        <option value="Hoàng Anh Gia Lai" data-league="v1">Hoàng Anh Gia Lai</option>
+                        <option value="Becamex Bình Dương" data-league="v1">Becamex Bình Dương</option>
+                        <option value="SHB Đà Nẵng" data-league="v1">SHB Đà Nẵng</option>
+                        <option value="Sông Lam Nghệ An" data-league="v1">Sông Lam Nghệ An</option>
+                        <option value="Sài Gòn" data-league="v1">Sài Gòn</option>
+                        <option value="Phố Hiến" data-league="v2">Phố Hiến</option>
+                        <option value="Đông tháp" data-league="v2">Đông tháp</option>
+                        <option value="Long An" data-league="v2">Long An</option>
+                        <option value="Bình Định" data-league="v2">Bình Định</option>
+                        <option value="An Giang" data-league="v2">An Giang</option>
+                        <option value="Bà Rịa Vũng Tàu" data-league="v2">Bà Rịa Vũng Tàu</option>
+                    </select>    
+                </div>
+
+                <div class="col-4">
+                    <div class="form-group" id="player">
+                        <label for="" class="font-weight-bold" >Nhập tên cầu thủ</label>
+                        <input type="text" class="form-control" placeholder="Nguyễn Quang Hải">
+                    </div>
+                </div>
+
+
+          </div>   
+        </form>
+          
+          <button class="btn btn-primary" id="btn-sm" type="submit">Thêm cầu thủ</button>
+
+          <h1 class="text-center" id="no-data"></h1>
+          
+          <table id="table" class="table table-bordered">
+                <thead class="text-center">
+                    <tr>
+                        <th>Giải đấu</th>
+                        <th>Câu lạc bộ</th>
+                        <th>Cầu thủ</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="players">
+                        
+                </tbody>
+
+          </table>
+      </div>
+
+
+    <script src="bootstrap/jQuery/jquery.min.js"></script>
+    <script src="bootstrap/popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

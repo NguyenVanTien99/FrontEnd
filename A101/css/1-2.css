@@ -55,8 +55,20 @@
     flex-wrap: wrap;
   }
 
+  .content {
+    padding: 180px 0;
+    height: 400px;
+  }
+
   .signup {
+    padding: 90px 0;
     flex-basis: 50%;
+    height: 200px;
+  }
+
+  .feature {
+    padding: 90px 0;
+    height: 200px;
   }
 
   .feature1 {
@@ -84,6 +96,11 @@
     flex-wrap: wrap;
   }
 
+  .header{
+    padding: 140px 0;
+    height: 300px;
+  }
+
   .signup {
     order: 4;
     flex-grow: 3;
@@ -91,11 +108,14 @@
   }
 
   .feature {
+    padding: 180px 0;
     flex-basis: 33.33%;
-    height: 200px;
+    height: 400px;
   }
 
   .content {
+    padding: 180px 0;
+    height: 400px;
     order: 4;
   }
 }

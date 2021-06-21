@@ -12,9 +12,16 @@ body{
 }
 
 .row {
-  height: 200px;
   margin: 26px;
   display: flex;
+}
+
+.row1, .row2 {
+  height: 150px;
+}
+
+.row3, .row4 {
+  height: 200px;
 }
 
 .row1 {
@@ -38,6 +45,14 @@ body{
   flex: 1;
   text-align: center;
   padding-top: 45px;
+}
+
+.day1, .day2{
+  padding-top: 25px;
+}
+
+.day3, .day4{
+  
 }
 
 .day p {
@@ -100,6 +115,11 @@ body{
   background-color: white;
   flex: 3;
   padding-top: 55px;
+  padding-left: 25px;
+}
+
+.c-c {
+  padding-top: 35px;
   padding-left: 25px;
 }
 
