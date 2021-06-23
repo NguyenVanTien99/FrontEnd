@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <!-- Awesome -->
+    <link rel="stylesheet" href="bootstrap/css/all.css" />
+    <link rel="stylesheet" href="bootstrap/js/all.js" />
+  </head>
+  <body>    
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-8">
+                <h1 style="background-color: aqua;">THÔNG TIN SẢN PHẨM</h1>
+
+                <div class="row">
+
+                    <div class="col-3">
+                    
+                        <div class="form-group" id="msp">
+                            <label for="" class="font-weight-bold" >Mã Sản Phẩm</label>
+                            <input type="text" class="form-control" placeholder="SP003">
+                        </div>
+    
+                        <div class="form-group" id="hsx">
+                            <label for="" class="font-weight-bold" >Hãng sản xuất</label>
+                            <input type="text" class="form-control" placeholder="Apple">
+                        </div>
+                    </div>
+    
+                    <div class="col-6">
+                        
+                        <div class="form-group" id="tsp">
+                            <label for="" class="font-weight-bold" >Tên Sản phẩm</label>
+                            <input type="text" class="form-control" placeholder="Iphone X">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-8">
+                    
+                                <label for="" class="font-weight-bold">Danh mục sản phẩm</label>
+                                <select class="form-control" id="clb">
+                                    <option value="Chiếc">Điện thoại</option>
+                                    <option value="Chục">Ipad</option>
+                                    <option value="Tá">Laptop</option>
+                                </select>    
+
+                            </div>
+
+                            <div class="col-4">
+                    
+                                <label for="" class="font-weight-bold">Đơn vị tính</label>
+                                <select class="form-control" id="clb">
+                                    <option value="Chiếc">Chiếc</option>
+                                    <option value="Chục">Chục</option>
+                                    <option value="Tá">Tá</option>
+                                </select>   
+
+                            </div>
+                        </div>
+    
+                       
+                    </div>
+
+                    <div class="col-3">
+                    
+                        <div class="form-group" id="gb">
+                            <label for="" class="font-weight-bold" >Giá Bán</label>
+                            <input type="text" class="form-control" placeholder="100,000">
+                        </div>
+    
+                        <div class="form-group" id="slsp">
+                            <label for="" class="font-weight-bold" >Số lượng sản phẩm</label>
+                            <input type="text" class="form-control" placeholder="10">
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="btn btn-add btn-success">ADD Sản phẩm</button>
+                
+
+            </div>
+
+            <div class="col-4 p-0">
+                <h1 style="background-color: aqua;">THÔNG TIN THUẾ</h1>
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Default checkbox
+                    </label>
+                  </div>
+
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Checked checkbox
+                    </label>
+                  </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="bootstrap/jQuery/jquery.min.js"></script>
+    <script src="bootstrap/popper/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
